@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-one">
+        <header>
+            <img src="anh.jpg" alt="">
+        </header>
+    
+        <main>
+            <div class="main-title">
+                <p class="p-one">4 days ago</p>
+                <h2>Post One</h2>
+            </div>
+            <div class="main-content">
+                <p>Lorem ipsum dolor sit amet
+                    consectetur, Ducimus, repudiandae
+                    temporibus omnis illum maxime quod
+                    deserunt eligendi dolor
+                    </p>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-read">
+                <h4>4m</h4>
+                <p>READ</p>
+            </div>
+            <div class="footer-views">
+                <h4>5123</h4>
+                <p>VIEWS</p>
+            </div>
+            <div class="footer-comments">
+                <h4>32</h4>
+                <p>COMMENTS</p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <div class="page-one">
+        <header>
+            <img src="anh.jpg" alt="">
+        </header>
+    
+        <main>
+            <div class="main-title">
+                <p class="p-two">1 week ago</p>
+                <h2>Post Two</h2>
+            </div>
+            <div class="main-content">
+                <p>Adipisicing elit. Ducimus, repudiandae
+                    corrupti amet temporibus omnis
+                    provident illum maxime quod. Lorem
+                    ipsum dolor
+                    </p>
+            </div>
+        </main>
+        <footer class="footer-two">
+            <div class="footer-read">
+                <h4>7m</h4>
+                <p>READ</p>
+            </div>
+            <div class="footer-views">
+                <h4>7152</h4>
+                <p>VIEWS</p>
+            </div>
+            <div class="footer-comments">
+                <h4>21</h4>
+                <p>COMMENTS</p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <div class="page-one">
+        <header>
+            <img src="anh.jpg" alt="">
+        </header>
+    
+        <main>
+            <div class="main-title">
+                <p class="p-three">3 week ago</p>
+                <h2>Post Three</h2>
+            </div>
+            <div class="main-content">
+                <p>Repudiandae corrupti amet
+                    temporibus omnis provident illum.
+                    maxime. Ducimus, lorem ipsum dolor
+                    adipisicing elit
+                    </p>
+            </div>
+        </main>
+        <footer class="footer-three">
+            <div class="footer-read">
+                <h4>5m</h4>
+                <p>READ</p>
+            </div>
+            <div class="footer-views">
+                <h4>3021</h4>
+                <p>VIEWS</p>
+            </div>
+            <div class="footer-comments">
+                <h4>15</h4>
+                <p>COMMENTS</p>
+            </div>
+        </footer>
+        
+    </div>
+    <style>
+        
+        body{
+            background-color: rgb(12, 14, 13);
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .page-one{
+            width: 300px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        header img{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        main{
+            text-align: center;
+        }
+        .main-title p{
+            font-weight:bold;
+            margin-bottom: -20px;
+        }
+        .main-content{
+            color: rgb(157, 157, 157);
+        }
+
+        footer{
+            background-color: rgb(250, 13, 84);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+            justify-content: space-between;
+            color: #fff;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+        }
+
+        .footer-views{
+            border-left: 1px solid rgb(71, 71, 71);
+            border-right: 1px solid rgb(71, 71, 71);
+            
+        }
+
+        .footer-two{
+            background-color: orangered;
+        }
+        .footer-three{
+            background-color: green;
+        }
+
+        .p-two{
+            color: orangered;
+        }
+        .p-three{
+            color: green;
+        }
+        .p-one{
+            color:rgb(250, 13, 84) ;
+        }
+    </style>
+</body>
+</html>
